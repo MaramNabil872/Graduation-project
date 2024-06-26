@@ -1,0 +1,48 @@
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.restaurant-info {
+    padding: 16px;
+}
+
+.restaurant-title {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.restaurant-description {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.restaurant-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}

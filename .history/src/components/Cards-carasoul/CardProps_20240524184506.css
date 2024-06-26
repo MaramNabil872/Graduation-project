@@ -1,0 +1,35 @@
+.card-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    min-width: 100px;
+    height: 200px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card.active {
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,37 @@
+import React, { useState } from 'react';
+import { FaHome, FaShoppingCart, FaUser, FaPlus, FaComments } from 'react-icons/fa';
+import './BottomNav.css'; // Assuming you have a CSS file named 'BottomNav.css' for styling
+import Swal from 'sweetalert2'; // Import SweetAlert2
+
+function BottomNav() {
+  const [open, setOpen] = useState(false);
+
+  const handleClickPlus = () => {
+    setOpen(!open); // Toggle the 'open' state
+  };
+
+  return (
+    <div className="bottom-navbar">
+      <div className="con-effect">
+        <div className="effect"></div>
+      </div>
+      <Link className="active" onClick={() => setOpen(false)}>
+        <FaHome className="logo" />
+      </Link>
+      <Link onClick={() => setOpen(false)}>
+        <FaComments className="logo" />
+      </Link>
+      <Link onClick={handleClickPlus} className={`float ${open ? 'open' : ''}`}>
+        <FaPlus className="logo" />
+      </Link>
+      <Link onClick={() => setOpen(false)}>
+        <FaShoppingCart className="logo" />
+      </Link>
+      <Link onClick={() => setOpen(false)}>
+        <FaUser className="logo" />
+      </vLink>
+    </div>
+  );
+}
+
+export default BottomNav;

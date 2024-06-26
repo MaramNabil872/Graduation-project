@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                 // Set the JavaScript language version
+    "module": "ESNext",                 // Set the module system
+    "moduleResolution": "Node",         // Use Node module resolution
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "jsx": "react",                     // Support JSX syntax (change to "react-jsx" for React 17+)
+    "strict": true,                     // Enable all strict type-checking options
+    "esModuleInterop": true,            // Enable compatibility with CommonJS modules
+    "skipLibCheck": true,               // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure file names are treated as case-sensitive
+    "baseUrl": ".",                     // Base directory to resolve non-relative module names
+    "paths": {
+      "": ["src/*"]                  // Alias for easier imports
+    },
+    "composite": true                    // Enable project references
+  },
+  "include": ["src/**/*", "vite.config.ts" ,"public/assets/assets.js"], // Include source files and config files
+  "exclude": ["node_modules"],               // Exclude node_modules directory
+  "references": [
+    { "path": "./jsconfig.node.json" }       // Reference the jsconfig.node.json file
+  ]
+}

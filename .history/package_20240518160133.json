@@ -1,0 +1,56 @@
+{
+  "name": "test-project",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test.e2e": "cypress run",
+    "test.unit": "vitest",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@capacitor/app": "6.0.0",
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/core": "6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/haptics": "6.0.0",
+    "@capacitor/keyboard": "6.0.0",
+    "@capacitor/preferences": "^6.0.0",
+    "@capacitor/status-bar": "6.0.0",
+    "@ionic/pwa-elements": "^3.3.0",
+    "@ionic/react": "^8.0.0",
+    "@ionic/react-router": "^8.0.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.6.8",
+    "ionicons": "^7.0.0",
+
+    "react-router": "^5.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.8.1",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "@paypal/react-paypal-js": "^8.1.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
+    "web-vitals": "^2.1.4"
+  },
+  "description": "An Ionic project"
+}

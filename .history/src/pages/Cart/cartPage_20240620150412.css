@@ -1,0 +1,10 @@
+/* General styles */
+.all {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: scroll;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+

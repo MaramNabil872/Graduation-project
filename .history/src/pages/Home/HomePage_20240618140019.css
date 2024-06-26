@@ -1,0 +1,36 @@
+.HomePage {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100vh;
+    overflow-y: auto;
+}
+
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 0px;
+    display: block;
+    height: 0vh !important ; 
+    overflow-y: auto;}
+
+.HomePage ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.HomePage li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.restaurant-list{
+    text-align: -webkit-center;
+}
+.search{
+    text-align-last: center;
+
+}
+.search-text{
+    text-align: left;
+}

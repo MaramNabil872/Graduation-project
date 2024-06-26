@@ -1,0 +1,94 @@
+.checkout_form {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.order_summary {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.summary_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.summary_item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.item_details {
+    display: flex;
+    align-items: center;
+}
+
+.item_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.shipping_info {
+    flex: 1;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.form_group {
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.place_order_button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.cancel_button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.empty_cart {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.link {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

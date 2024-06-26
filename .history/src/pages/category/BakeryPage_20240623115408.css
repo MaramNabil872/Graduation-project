@@ -1,0 +1,47 @@
+.bakery-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 34%;
+    display: flex;
+
+}
+
+.bakery-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bakery-store {
+    text-align: center;
+}
+
+.bakery-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 30%;
+    float: left;
+    margin-left: 4%;
+}
+.title{
+    text-align: center;
+    color: #00822c ;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+    font-family: math;
+}
+.bakery-description {
+    font-size: 16px;
+    color: #555;
+}

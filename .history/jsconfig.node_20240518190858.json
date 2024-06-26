@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true,                   // Enable project references
+    "module": "ESNext",                  // Set the module system
+    "moduleResolution": "Node",          // Use Node module resolution
+    "allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+  },
+  "include": ["vite.config.js"],         // Include the Vite configuration file
+  "exclude": ["node_modules"]            // Exclude node_modules directory
+}

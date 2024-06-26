@@ -1,0 +1,99 @@
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #fff;
+    border-radius: 30px 30px 0 0;
+    padding: 10px 0;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .bottom-navbar button,
+  .bottom-navbar a {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    border-radius: 20px;
+    transition: all 0.25s ease;
+  }
+  
+  .bottom-navbar button:active:not(.float),
+  .bottom-navbar a:active:not(.float) {
+    transform: scale(1.2);
+  }
+  
+  .bottom-navbar button.float {
+    margin-top: -50px;
+    background: #007E2b;
+    color: #fff;
+    border-radius: 25px;
+    height: 60px;
+    box-shadow: 0 10px 20px 0 rgba(76, 232, 97, 0.4);
+  }
+  
+  .bottom-navbar button.active,
+  .bottom-navbar a.active {
+    color: #007E2b;
+  }
+  
+  .bottom-navbar button i,
+  .bottom-navbar a i {
+    font-size: 1.5rem;
+    pointer-events: none;
+  }
+  
+  .con-effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .effect {
+    background: rgba(76, 232, 141, 0.15);
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 13px;
+    border-radius: 18px;
+  }
+  .logo{
+    font-size: 25px;
+    text-align: center;
+
+  }
+  .custom-title {
+    color:violet
+  }
+  .custom-text{
+    color: red;
+  } 
+  .swal2-popup {
+    text-align: center; /* Center the text */
+  }
+  
+  .swal2-title {
+    color: green; /* Green color for the title */
+  }
+  
+  .swal2-content {
+    color: green; /* Green color for the content */
+  }
+  
+  .swal2-confirm {
+    background-color: green; /* Green background color for the button */
+    color: white; /* White text color for the button */
+  }

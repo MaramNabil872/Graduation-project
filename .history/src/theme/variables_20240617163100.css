@@ -1,0 +1,6 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+div{
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}

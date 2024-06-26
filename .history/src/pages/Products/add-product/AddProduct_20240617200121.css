@@ -1,0 +1,28 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+ 
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .header {
+    background-color: #364574;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

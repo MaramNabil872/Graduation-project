@@ -1,0 +1,48 @@
+.add{
+  height: 100vh;
+  overflow-y: auto;
+
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+
+  }
+  .swal-custom {
+    z-index: X;
+    display: -webkit-box;
+    display: flex;
+    position: fixed;
+    z-index: 300000;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .header {
+    background-color: #364574;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container input {
+    /* border-radius: 10rem 0 0 10rem; */
+    border: none;
+    height: 3rem;
+    /* width: 20rem; */
+    background-color: #f1f1f1;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}

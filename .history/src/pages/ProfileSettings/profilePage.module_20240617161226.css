@@ -1,0 +1,53 @@
+/* ProfilePage.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: #ff6347;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.toast-success {
+  background-color: #007e2b !important;
+  color: #ffffff;
+}
+
+.toast-error {
+  background-color: #ff6347 !important;
+  color: #ffffff;
+}

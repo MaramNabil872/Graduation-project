@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "composite": true,         
+    "target": "ESNext",                 // Set the JavaScript language version
+    "module": "ESNext",                 // Set the module system
+    "moduleResolution": "Node",         // Use Node module resolution
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "jsx": "react",                     // Support JSX syntax (change to "react-jsx" for React 17+)
+    "baseUrl": ".",                     // Base directory to resolve non-relative module names
+    "paths": {
+      "@/*": ["src/*"]                  // Alias for easier imports
+    }
+  },
+  "include": ["src/**/*", "vite.config.js" ],
+  "exclude": ["node_modules"]                // Exclude node_modules directory
+}

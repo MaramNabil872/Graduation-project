@@ -1,0 +1,1 @@
+chunk-LGMOCP34.js?v=7111aaff:19441 Uncaught TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
